@@ -10,6 +10,7 @@ import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -37,6 +38,11 @@ public class MainActivity extends AppCompatActivity {
     private ImageView imgM;
     boolean clickedF=false;
     boolean clickedM=false;
+
+    private static final String TAG="myLogs";
+
+    private  String pol;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -104,12 +110,15 @@ public class MainActivity extends AppCompatActivity {
 
             if (clickedF) {
                 bmrI = Math.round(655 + (9.6 * w) + (1.8 * h) - (4.7 * a));
+                pol=getString(R.string.fem);
             } else if (clickedM) {
                 bmrI = Math.round(66 + (13.7 * w) + (5 * h) - (6.8 * a));
+                pol=getString(R.string.male);
             } else {
                 bmrI = 0;
                 Toast toast = Toast.makeText(this, R.string.pol, Toast.LENGTH_LONG);
                 toast.show();
+                pol=getString(R.string.none);
             }
             //Для мужчин:	BMR = 66 + (13.7 x вес) + (5 x рост) - (6.8 x возраст)
             //Для женщин:	BMR = 655 + (9.6 x вес) + (1.8 x рост) - (4.7 x возраст)
@@ -132,6 +141,7 @@ public class MainActivity extends AppCompatActivity {
             //Сильная активность	BMR * 1.725
             //Максимальная активность	BMR * 1.9
         }
+        //Log.d(TAG,pol+": "+bmr.getText());
 
     }
 
@@ -175,6 +185,10 @@ public class MainActivity extends AppCompatActivity {
                 configuration1.locale = locale1;
                 getBaseContext().getResources().updateConfiguration(configuration1, null);
                 setTitle(R.string.app_name);
+                return true;
+
+            case R.id.log:
+                Log.d(TAG,pol+": "+bmr.getText());
                 return true;
         }
         return super.onOptionsItemSelected(item);

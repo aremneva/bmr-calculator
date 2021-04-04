@@ -42,4 +42,7 @@ Events:
 Thank you to all the volunteers who will help us run the marathon!"</string>
     <string name="enter">Enter the data!</string>
     <string name="pol">Gender not selected!</string>
+    <string name="fem">Female</string>
+    <string name="male">Male</string>
+    <string name="none">none</string>
 </resources>

@@ -45,4 +45,7 @@ Marathon Skills - фестиваль бега, проводимый каждый
     </string>
     <string name="enter">Введите данные!</string>
     <string name="pol">Не выбран пол!</string>
+    <string name="fem">Женский</string>
+    <string name="male">Мужской</string>
+    <string name="none">Не выбран</string>
 </resources>
