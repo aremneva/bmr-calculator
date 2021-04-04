@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMR_Calculator</string>
+    <string name="max">Максимальная активность - Сильная ежедневная физическая нагрузка или спорт и физическая работа</string>
+    <string name="strong">Сильная активность - Сильные физическая нагрузка или занятия спортом 6 - 7 дней в неделю</string>
+    <string name="avg">Средняя активность - Умеренная физическая работа или занятия спортом 3 - 5 дней в неделю</string>
+    <string name="sid">Сидячий образ - Нет работы или работа за столом</string>
+    <string name="min">Маленькая активность - Мало физических работы или занятия спортом 1-3 раза в неделю</string>
+    <string name="back">Назад</string>
+    <string name="cancel">Отмена</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="years">лет</string>
+    <string name="weight">Вес:</string>
+    <string name="height">Рост:</string>
+    <string name="age">Возраст:</string>
+    <string name="kg">кг.</string>
+    <string name="cm">см.</string>
+    <string name="ybmr">Ваш BMR:</string>
+    <string name="eday">Ежедневно тратится калорий</string>
+    <string name="maxs">Максимальная активность</string>
+    <string name="sids">Сидячий</string>
+    <string name="mins">Маленькая активность</string>
+    <string name="avgs">Средняя активность</string>
+    <string name="strgs">Сильная активность</string>
+    <string name="LangTitle">Язык</string>
+    <string name="LangDialogTitle">Выберите язык:</string>
+    <string name="LangSummary">Язык приложения.\nНеобходимо перезапустить приложение для принятия изменений.</string>
+    <string name="ru">Русский</string>
+    <string name="en">Английский</string>
+</resources>
