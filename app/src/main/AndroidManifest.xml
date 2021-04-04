@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BMR_Calculator">
-        <activity android:name=".result"></activity>
+        <activity android:name=".MarafonSkills"></activity>
+        <activity android:name=".result" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

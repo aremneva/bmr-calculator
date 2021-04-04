@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         if ((weight.getText().length()==0)||(height.getText().length()==0)||(age.getText().length()==0)){
-            Toast toast = Toast.makeText(this, "Введите данные!", Toast.LENGTH_LONG);
+            Toast toast = Toast.makeText(this, R.string.enter, Toast.LENGTH_LONG);
             toast.show();
         }
         else {
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 bmrI = Math.round(66 + (13.7 * w) + (5 * h) - (6.8 * a));
             } else {
                 bmrI = 0;
-                Toast toast = Toast.makeText(this, "Не выбран пол!", Toast.LENGTH_LONG);
+                Toast toast = Toast.makeText(this, R.string.pol, Toast.LENGTH_LONG);
                 toast.show();
             }
             //Для мужчин:	BMR = 66 + (13.7 x вес) + (5 x рост) - (6.8 x возраст)
@@ -140,10 +140,6 @@ public class MainActivity extends AppCompatActivity {
         clickedM=false;
         imgF.setBackgroundColor(imgF.getResources().getColor(R.color.gray));
         imgM.setBackgroundColor(imgF.getResources().getColor(R.color.design_default_color_background));
-        // imgF.setColorFilter(R.color.gray);
-        // imgM.setColorFilter(R.color.black);
-
-
     }
 
     public void male(View view) {
@@ -151,20 +147,8 @@ public class MainActivity extends AppCompatActivity {
         clickedF=false;
         imgM.setBackgroundColor(imgF.getResources().getColor(R.color.gray));
         imgF.setBackgroundColor(imgF.getResources().getColor(R.color.design_default_color_background));
-        // imgF.setColorFilter(R.color.black);
-        // imgM.setColorFilter(R.color.gray);
     }
 
-    public void swlang(View view) {
-
-        Locale locale = new Locale("en");
-        Locale.setDefault(locale);
-        Configuration configuration = new Configuration();
-        configuration.locale = locale;
-        getBaseContext().getResources().updateConfiguration(configuration, null);
-// выводим английский текст на русской локали устройства
-        setTitle(R.string.app_name);
-    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -197,4 +181,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void MarafonSkills(MenuItem item) {
+        Intent intent = new Intent (this, MarafonSkills.class);
+        startActivity(intent);
+    }
 }

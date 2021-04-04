@@ -6,7 +6,7 @@
     <string name="weight">Weight:</string>
     <string name="max">Maximum activity - Strong daily physical activity or sports and physical work</string>
     <string name="strong">Strong activity - Strong physical activity or sports 6-7 days a week</string>
-    <string name="avg">Average activity - Moderate physical activity or exercise 3-5 days a week</string>
+    <string name="avg">Average activity – Moderate physical activity or exercise 3-5 days a week</string>
     <string name="sid">Sedentary image - No work or desk work</string>
     <string name="min">Little activity - Little physical work or exercise 1-3 times a week</string>
     <string name="years">y.o</string>
@@ -16,16 +16,30 @@
     <string name="cm">cm.</string>
     <string name="ybmr">Your BMR:</string>
     <string name="eday">Daily calories spent</string>
-    <string name="maxs">Maximum activity</string>
-    <string name="sids">Sedentary lifestyle</string>
-    <string name="mins">Little activity</string>
-    <string name="avgs">Average activity</string>
-    <string name="strgs">Strong activity</string>
+    <string name="maxs">Maximum activity: </string>
+    <string name="sids">Sedentary lifestyle: </string>
+    <string name="mins">Little activity: </string>
+    <string name="avgs">Average activity: </string>
+    <string name="strgs">Strong activity: </string>
     <string name="ru">Russian</string>
     <string name="en">English</string>
     <string name="LangTitle">Language</string>
     <string name="LangDialogTitle">Choose language</string>
     <string name="LangSummary">Language</string>
-
-
+    <string name="info">Information</string>
+    <string name="log">Log</string>
+    <string name="information">
+        "About Marathon Skills 2016
+        Marathon Skills is a running festival held every year in different parts of the world. There can be three events: a Full Marathon, a Half Marathon and a race for beginners - so the festival is suitable for everyone.
+In past years, the marathon has been held in Osaka, Japan (2014); Leipzig, Germany (2013); Hanoi, Vietnam (2012) and York, England (2011).
+This year, Marathon Skills is very spectacular, held in Sao Paolo, Brazil, it should be the biggest running festival. It is the financial center of Brazil and the largest city in South America.Sao Paulo will see thousands of runners who will run past skyscrapers, green parks and magnificent architecture.
+This festival attracted a record number of runners from all over the world. Special attention will be paid to the participants from Kenya and Jamaica, as we hope to see the winner of 2014. (The Ethiopian finished the race in 45 minutes 4 seconds.)
+The holiday atmosphere promises entertainment for all viewers.
+Events:
+- The Full Marathon Samba program will start in Rua Do Americano at 6 am.
+- The "Jongo" Half Marathon program will start at 7 a.m. Runners will start from near the intersection of Rua Ciniciata and Avenida.
+- Program "Capoeira" in 5 km the race for beginners will start at 15 o'clock Our beginners will run from the Memorial to Uninove.
+Thank you to all the volunteers who will help us run the marathon!"</string>
+    <string name="enter">Enter the data!</string>
+    <string name="pol">Gender not selected!</string>
 </resources>

@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/rus"
+        android:id="@+id/info"
         android:orderInCategory="1"
+        android:title="@string/info"
+        android:onClick="MarafonSkills"/>
+    <item
+        android:id="@+id/log"
+        android:orderInCategory="2"
+        android:title="@string/log" />
+    <item
+        android:id="@+id/rus"
+        android:orderInCategory="3"
         android:title="@string/ru" />
     <item
         android:id="@+id/eng"
-        android:orderInCategory="3"
+        android:orderInCategory="4"
         android:title="@string/en" />
 </menu>
