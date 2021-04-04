@@ -1,5 +1,5 @@
 # BMR Calculator
-![application](C:\Users\remne\repo\bmr-calculator\img\screen_main.jpg)
+![application](img\screen_main.jpg)
 ## Purpose
 ### Technical requirements
 This app allows an user to determine their BMR (the minimum amount of energy consumed by the human body to maintain their own life at rest) based on their gender, age, weight, and height.
