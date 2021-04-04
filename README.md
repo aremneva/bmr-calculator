@@ -5,7 +5,10 @@ This app allows an user to determine their BMR (the minimum amount of energy con
 BMR is used as an estimate to measure an adult's metabolism, which varies with height, weight, age, and various medical factors.
 
 ## How to build
-tbd
+build requirements:
+- Minimum supported Gradle version is 6.5
 
 ## How to run
 tbd
+
+##
