@@ -1,4 +1,5 @@
 # BMR Calculator
+![application](C:\Users\remne\repo\bmr-calculator\img\screen_main.jpg)
 ## Purpose
 ### Technical requirements
 This app allows an user to determine their BMR (the minimum amount of energy consumed by the human body to maintain their own life at rest) based on their gender, age, weight, and height.
@@ -6,9 +7,13 @@ BMR is used as an estimate to measure an adult's metabolism, which varies with h
 
 ## How to build
 build requirements:
-- Minimum supported Gradle version is 6.5
+- Install Android SDK
+- Install JDK
+- Java version "1.8"
+- Run gradlew script
+```bash
+gradlew build
+```
 
 ## How to run
 tbd
-
-##
