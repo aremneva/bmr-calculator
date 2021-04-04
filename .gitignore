@@ -2,3 +2,4 @@
 .gradle
 manifests
 build
+local.properties
